@@ -26,6 +26,9 @@ https://github.com/guino/BazzDoorbell/issues/2
 - La caméra devrait ensuite booter
 - Tester si le hack a fonctionné avec la requête HTTP suivante 
   - http://admin:admin@CAMERA.IP:8090/proc/self/root/mnt/mmc01/hack => Réponse : done
+ 
+## Hacker la caméra
+
 - Placer les fichier de ToHack sur le carte SD
   - cgi-bin
   - busybox
