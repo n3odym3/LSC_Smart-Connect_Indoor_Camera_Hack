@@ -5,7 +5,7 @@ Hack to enable the ONVIF (and RTSP) on the LSC Smart connect indoor camera from 
 https://github.com/guino/BazzDoorbell/issues/2
 
 ## Rooter la caméra
-- Placer le ficher ppsFactoryTool.txt dans une carte SD (FAT32)
+- Placer le ficher [ppsFactoryTool.txt](https://github.com/n3odym3/LSC_Smart-Connect_Indoor_Camera_Hack/blob/main/ToRoot) dans une carte SD (FAT32)
 - Setup le SSID et PASSWORD du WiFi
 - Placer la carte SD dans la caméra
 - Lancer la caméra
@@ -15,7 +15,7 @@ https://github.com/guino/BazzDoorbell/issues/2
   - http://admin:admin@CAMERA.IP:8090/proc/cmdline => Sauvegarder réponse
   - http://admin:admin@CAMERA.IP:8090/proc/self/root/etc/init.d/S90PPStrong => S'assurer que MTDNUM=5 est bien décommenté (sans #)
 - Si tout est OK éteindre la caméra et récupérer la carte SD
-- Placer les fichier de ToRoot sur la SD
+- Placer les fichier de [ToRoot](https://github.com/n3odym3/LSC_Smart-Connect_Indoor_Camera_Hack/blob/main/ToRoot) sur la SD
   - env
   - initrun.sh
   - ppsMmcTool.txt
